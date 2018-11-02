@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3047754D2155607A005CC86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047754C2155607A005CC86A /* AppDelegate.swift */; };
-		3047754F2155607A005CC86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047754E2155607A005CC86A /* ViewController.swift */; };
+		3047754F2155607A005CC86A /* ToBeastTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047754E2155607A005CC86A /* ToBeastTVC.swift */; };
 		304775522155607A005CC86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304775502155607A005CC86A /* Main.storyboard */; };
 		304775552155607A005CC86A /* belt_exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 304775532155607A005CC86A /* belt_exam.xcdatamodeld */; };
 		304775572155607B005CC86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304775562155607B005CC86A /* Assets.xcassets */; };
 		3047755A2155607B005CC86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304775582155607B005CC86A /* LaunchScreen.storyboard */; };
 		304775652155607B005CC86A /* belt_examTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304775642155607B005CC86A /* belt_examTests.swift */; };
 		304775702155607B005CC86A /* belt_examUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047756F2155607B005CC86A /* belt_examUITests.swift */; };
+		3047757E215562CC005CC86A /* BeastedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047757D215562CC005CC86A /* BeastedTVC.swift */; };
+		304775802155633F005CC86A /* ToBeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047757F2155633F005CC86A /* ToBeastCell.swift */; };
+		30477582215566AE005CC86A /* AddBeastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30477581215566AE005CC86A /* AddBeastVC.swift */; };
+		3047758421559C30005CC86A /* EditBeastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047758321559C30005CC86A /* EditBeastVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		304775492155607A005CC86A /* belt_exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = belt_exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3047754C2155607A005CC86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3047754E2155607A005CC86A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3047754E2155607A005CC86A /* ToBeastTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeastTVC.swift; sourceTree = "<group>"; };
 		304775512155607A005CC86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304775542155607A005CC86A /* belt_exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = belt_exam.xcdatamodel; sourceTree = "<group>"; };
 		304775562155607B005CC86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		3047756B2155607B005CC86A /* belt_examUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = belt_examUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3047756F2155607B005CC86A /* belt_examUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belt_examUITests.swift; sourceTree = "<group>"; };
 		304775712155607B005CC86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3047757D215562CC005CC86A /* BeastedTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastedTVC.swift; sourceTree = "<group>"; };
+		3047757F2155633F005CC86A /* ToBeastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeastCell.swift; sourceTree = "<group>"; };
+		30477581215566AE005CC86A /* AddBeastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeastVC.swift; sourceTree = "<group>"; };
+		3047758321559C30005CC86A /* EditBeastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBeastVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,16 @@
 		3047754B2155607A005CC86A /* belt_exam */ = {
 			isa = PBXGroup;
 			children = (
-				3047754C2155607A005CC86A /* AppDelegate.swift */,
-				3047754E2155607A005CC86A /* ViewController.swift */,
-				304775502155607A005CC86A /* Main.storyboard */,
 				304775562155607B005CC86A /* Assets.xcassets */,
 				304775582155607B005CC86A /* LaunchScreen.storyboard */,
 				3047755B2155607B005CC86A /* Info.plist */,
+				3047754C2155607A005CC86A /* AppDelegate.swift */,
+				304775502155607A005CC86A /* Main.storyboard */,
+				3047758321559C30005CC86A /* EditBeastVC.swift */,
+				3047754E2155607A005CC86A /* ToBeastTVC.swift */,
+				3047757D215562CC005CC86A /* BeastedTVC.swift */,
+				30477581215566AE005CC86A /* AddBeastVC.swift */,
+				3047757F2155633F005CC86A /* ToBeastCell.swift */,
 				304775532155607A005CC86A /* belt_exam.xcdatamodeld */,
 			);
 			path = belt_exam;
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3047754F2155607A005CC86A /* ViewController.swift in Sources */,
+				3047757E215562CC005CC86A /* BeastedTVC.swift in Sources */,
+				304775802155633F005CC86A /* ToBeastCell.swift in Sources */,
+				3047754F2155607A005CC86A /* ToBeastTVC.swift in Sources */,
 				3047754D2155607A005CC86A /* AppDelegate.swift in Sources */,
+				3047758421559C30005CC86A /* EditBeastVC.swift in Sources */,
+				30477582215566AE005CC86A /* AddBeastVC.swift in Sources */,
 				304775552155607A005CC86A /* belt_exam.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
